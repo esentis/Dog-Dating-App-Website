@@ -1,0 +1,132 @@
+/*
+font-family: 'Lilita One', cursive;
+font-family: 'Josefin Sans', sans-serif;
+*/
+#title {
+  background-color: #3fc1c9;
+  color: #fc5185;
+}
+
+#features {
+  background-color: white;
+  padding: 0 15%;
+  position: relative;
+  z-index: 1;
+  height: max-content;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #3fc1c9;
+}
+
+#press {
+  text-align: center;
+  background-color: #3fc1c9;
+  padding-bottom: 3rem;
+}
+
+#pricing {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  height: max-content;
+}
+
+#cta {
+  text-align: center;
+  background-color: #3fc1c9;
+  padding: 7% 15%;
+}
+
+#footer {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Lilita One', cursive;
+  font-size: 4rem;
+  line-height: 1.5;
+  color: #fc5185;
+}
+
+h2 {
+  color: #fc5185;
+}
+
+h3 {
+  font-family: 'Lilita One', cursive;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #fc5185;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.container-fluid {
+  padding: 2% 15% 7%;
+}
+
+.siteTitle {
+  font-size: 1.7rem;
+}
+
+.menuItems {
+  font-size: 1.2rem;
+  padding-right: 2.5rem;
+}
+
+.topRow {
+  margin-top: 5rem;
+}
+
+.iphonePhoto {
+  transform: rotate(25deg);
+  width: 17em;
+  position: absolute;
+  right: 30%;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 2rem;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.card-deck {
+  position: relative;
+  left: 20%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.features-container {
+  margin-top: 4rem;
+}
+
+.media-icons {
+  padding: 0.6rem;
+}
+
+@media (max-width: 991px) {
+  .iphonePhoto {
+    transform: rotate(0deg);
+    width: 20em;
+    padding: 2rem;
+    position: relative;
+    right: 0%;
+  }
+
+  .topRow {
+    margin-top: 0;
+  }
+}
