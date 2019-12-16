@@ -4,22 +4,18 @@ font-family: 'Josefin Sans', sans-serif;
 */
 #features {
   background-color: white;
-  padding: 0 15%;
+  padding: 0 12%;
   position: relative;
   z-index: 1;
   height: max-content;
 }
 
-#testimonials, #press, #cta, #title {
-  background-color: #3fc1c9;
+#testimonials,#cta, #title {
+  background-color: #F24987;
 }
 
-#footer, #pricing, #testimonials, #press, #cta {
+#footer, #pricing, #testimonials,#cta {
   text-align: center;
-}
-
-#press {
-  padding-bottom: 3rem;
 }
 
 #pricing {
@@ -38,7 +34,7 @@ h1 {
 }
 
 h1, h2, p, #title {
-  color: #fc5185;
+  color: #F2D5E8;
 }
 
 h1, h3 {
@@ -47,6 +43,11 @@ h1, h3 {
 
 h3 {
   font-size: 1.5rem;
+
+}
+h3,.pricing-title{
+  color:#F24987;
+
 }
 
 body {
@@ -77,11 +78,6 @@ body {
   right: 30%;
 }
 
-.press-logo {
-  width: 12%;
-  margin: 2rem;
-}
-
 .carousel-item {
   padding: 7% 15%;
 }
@@ -97,6 +93,9 @@ body {
 
 .features-container {
   margin-top: 4rem;
+}
+.features-paragraph{
+  color:#8C0327;
 }
 
 .media-icons {
